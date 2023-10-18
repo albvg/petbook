@@ -58,6 +58,30 @@
         body {
             margin: 0px;
         }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+            width: 70%;
+        }
+
+        button {
+            background-color: #5433b1;
+            color: white;
+            padding: 8px 10px 8px 10px;
+            border: none;
+            font-size: 15px;
+            font-family: 'Nunito';
+            border-radius: 8px;
+        }
+
+        button:hover {
+            background-color: #4722ad;
+        }
+
+
     </style>
 </head>
 <body>
@@ -70,10 +94,10 @@
         </div>
         <nav>
             <ul>
-                <li>Explorar</li>
-                <li>Amigos</li>
-                <li>Sobre nosotros</li>
-                <li>Iniciar sesión</li>
+                <li><a href="#artExplorar"></a>Explorar</li>
+                <li><a href="#artAmigos"></a>Amigos</li>
+                <li><a href="#artSobre"></a>Sobre nosotros</li>
+                <li><a href="#artIniciar"></a>Iniciar sesión</li>
             </ul>
         </nav>
     </div>
@@ -83,7 +107,20 @@
     <div id="statusText" style="text-align: center; padding: 20px;">
         <h1 style="font-size: 28px; color: #b69ef7;">¡Bienvenido/a a Petbook!</h1>
         <p style="color: #5433b1; font-size: 18px;">¿Cómo está tu mascota hoy?</p>
-        <textarea name="status" id="petstatus" cols="50" rows="15"></textarea>
+        <textarea name="status" id="petstatus" cols="50" rows="15"></textarea><br>
+        <button>Publicar post</button>
+    </div>
+
+    <div>
+        <img src="img/catbanner.avif" alt="Varios gatos" class="center">
+    </div>
+
+    <div id="contenedorArticulos">
+    <article id="artExplorar" class="artículo">
+        <h2>Explorar</h2>
+        <p>
+
+        </p>
     </div>
 
 </body>
