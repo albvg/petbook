@@ -1,0 +1,129 @@
+h1, h2, h3 {
+    font-family: 'Nunito'
+}
+
+ #logo {
+    background-color: #b69ef7;
+    color: white;
+    margin: 0px;
+    padding-left: 20px;
+    font-family: 'Nunito';
+    float: left;
+        }
+
+#statusText {
+    font-family: 'Nunito';
+        }
+
+.container {
+    clear: none;
+    overflow: auto;
+    background-color: #b69ef7;  
+        }
+
+nav {
+    float: right;
+    color: white;
+        }
+
+ul {
+    padding: 10px;
+    padding-top: 14px;
+        }
+
+ul li{
+    display: inline-block;
+    font-size:20px; font-family:'Nunito';
+    margin-right: 30px;
+        }
+
+ul li:hover {
+    color: #5433b1;
+        }
+
+a {
+    color: inherit;
+    text-decoration: none;
+        }
+
+body {
+    margin: 0px;
+    background-color: #f4f1fb;
+        }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 70%;
+        }
+
+#yourPost {
+    text-align: center;
+    padding: 20px;
+    width: fit-content;
+    margin: 0 auto;
+    font-family: 'Nunito';
+        }
+
+textarea {
+    border-radius: 8px;
+    border-color: #5433b1;
+    padding: 10px;
+        }
+
+button {
+    background-color: #5433b1;
+    color: white;
+    padding: 8px 10px 8px 10px;
+    border: none;
+    font-size: 15px;
+    font-family: 'Nunito';
+    border-radius: 8px;
+    float: right;
+        }
+
+button:hover {
+    background-color: #4722ad;
+        }
+
+/*#contenedorArticulos {
+    text-align: center;
+    font-family: 'Nunito';
+    background-color: #d2c6f4;
+    color: white;
+    padding-top: 40px;
+        }*/
+
+.profile {
+    vertical-align: middle;
+    display: inline-block;
+
+        }
+
+.profile img {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin: 20px;
+    display: inline-block;
+        }
+
+.userPost {
+    width: 600px;
+    background-color: white;
+    margin: 0 auto;
+    min-height: 100px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+        }
+
+.postText {
+    margin-left: 23%;
+    margin-right: 10%;
+    margin-top: -50px;
+    font-family: 'Nunito';
+    padding-bottom: 20px;
+        }

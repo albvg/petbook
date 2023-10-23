@@ -1,0 +1,48 @@
+h1, h2, h3 {
+    font-family: 'Nunito'
+}
+
+ #logo {
+    background-color: #b69ef7;
+    color: white;
+    margin: 0px;
+    padding-left: 20px;
+    font-family: 'Nunito';
+    float: left;
+        }
+
+nav {
+    float: right;
+    color: white;
+        }
+
+.container {
+    clear: none;
+    overflow: auto;
+    background-color: #b69ef7;    
+                }
+
+ul {
+    padding: 10px;
+    padding-top: 14px;
+        }
+
+ul li{
+    display: inline-block;
+    font-size:20px; font-family:'Nunito';
+    margin-right: 30px;
+        }
+
+ul li:hover {
+    color: #5433b1;
+        }
+
+a {
+    color: inherit;
+    text-decoration: none;
+        }
+
+body {
+    margin: 0px;
+    background-color: #f4f1fb;
+        }

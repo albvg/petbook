@@ -4,89 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Petbook</title>
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Nunito">
+
+<!-- LINKS -->
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+    <link rel="stylesheet" href="css/petbook.css">
           
-    <style>
+<!-- -------- -->
 
-        h1 {
-            font-family: 'Nunito'
-        }
-
-        #statusText {
-            font-family: 'Nunito';
-        }
-        #logo {
-            background-color: #b69ef7;
-            color: white;
-            margin: 0px;
-            padding-left: 20px;
-            font-family: 'Nunito'
-        }
-
-        .container {
-            clear: none;
-            overflow: auto;
-            background-color: #b69ef7;
-            
-        }
-        
-        nav {
-            float: right;
-            color: white;
-        }
-
-        #logo {
-            float: left;
-        }
-
-        ul {
-            padding: 10px;
-            padding-top: 14px;
-        }
-
-        ul li{
-            display: inline-block;
-            font-size:20px; font-family:'Nunito';
-            margin-right: 30px;
-        }
-
-        ul li:hover {
-            color: #5433b1;
-        }
-
-        body {
-            margin: 0px;
-        }
-
-        .center {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 50px;
-            width: 70%;
-        }
-
-        button {
-            background-color: #5433b1;
-            color: white;
-            padding: 8px 10px 8px 10px;
-            border: none;
-            font-size: 15px;
-            font-family: 'Nunito';
-            border-radius: 8px;
-        }
-
-        button:hover {
-            background-color: #4722ad;
-        }
-
-
-    </style>
 </head>
 <body>
 
-<!--Navigation bar-->
+<!--NAVIGATION BAR-->
 
     <div class="container">
         <div id="logo">
@@ -94,34 +23,118 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#artExplorar"></a>Explorar</li>
-                <li><a href="#artAmigos"></a>Amigos</li>
-                <li><a href="#artSobre"></a>Sobre nosotros</li>
-                <li><a href="#artIniciar"></a>Iniciar sesión</li>
+                <li><a href="explorar.html">Explorar</a></li>
+                <li><a href="">Amigos</a></li>
+                <li><a href="about.html">Sobre nosotros</a></li>
+                <li><a href="profile.html">Perfil</a></li>
             </ul>
         </nav>
     </div>
 
+<!-- -------- -->
+
 <!--Textbox-->
 
-    <div id="statusText" style="text-align: center; padding: 20px;">
-        <h1 style="font-size: 28px; color: #b69ef7;">¡Bienvenido/a a Petbook!</h1>
+    <div style="margin-bottom: 60px;">
+        <h1 style="font-size: 28px; color: #b69ef7; text-align: center; margin-top: 50px;">¡Bienvenido/a a Petbook!</h1>
+        <div id="yourPost">
         <p style="color: #5433b1; font-size: 18px;">¿Cómo está tu mascota hoy?</p>
         <textarea name="status" id="petstatus" cols="50" rows="15"></textarea><br>
         <button>Publicar post</button>
+        </div>
     </div>
 
     <div>
+        <div class="userPost">
+            <div class="profile">
+                <img src="img/petprofile1.png" alt="Foto de perfil" width="90px" height="90px">
+            </div>
+            <div class="profile">
+                <h3>Zoe</h3>
+            </div>
+            <div class="profile" style="font-family: 'Nunito'; color: rgb(131, 131, 131);">
+                <p>@zoegr</p>
+            </div>
+            <div class="postText">
+                <p>
+                   Hoy a mi perrita Lana se le ha caido su primer diente pero se lo ha tragado, no se le ve preocupada así que le he dado su paseo habitual y unos mimos para hacerle saber que es una campeona
+                </p>
+            </div>
+        </div>
+
+        <div class="userPost">
+            <div class="profile">
+                <img src="img/petprofile2.png" alt="Foto de perfil" width="90px" height="90px">
+            </div>
+            <div class="profile">
+                <h3>Mister Dog</h3>
+            </div>
+            <div class="profile" style="font-family: 'Nunito'; color: rgb(131, 131, 131);">
+                <p>@misterdog54</p>
+            </div>
+            <div class="postText">
+                <p>
+                    Me he registrado hoy en Petbook y estoy buscando gente que le gusten los perros tanto como a mí, si sois una de esas personas o conocéis a alguien dejadmelo saber!
+                </p>
+            </div>
+        </div>
+
+        <div class="userPost">
+            <div class="profile">
+                <img src="img/petprofile3.jpeg" alt="Foto de perfil" width="90px" height="90px">
+            </div>
+            <div class="profile">
+                <h3>Noelia</h3>
+            </div>
+            <div class="profile" style="font-family: 'Nunito'; color: rgb(131, 131, 131);">
+                <p>@catnoelia22</p>
+            </div>
+            <div class="postText">
+                <p>
+                    Hola!!!!!!! 😋
+                </p>
+            </div>
+        </div>
+
+        <div class="userPost">
+            <div class="profile">
+                <img src="img/petprofile4.png" alt="Foto de perfil" width="90px" height="90px">
+            </div>
+            <div class="profile">
+                <h3>Max</h3>
+            </div>
+            <div class="profile" style="font-family: 'Nunito'; color: rgb(131, 131, 131);">
+                <p>@maxelperro</p>
+            </div>
+            <div class="postText">
+                <p>
+                    Max cumple 10 años hoy, se me hace mayor
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!--<div>
         <img src="img/catbanner.avif" alt="Varios gatos" class="center">
     </div>
 
     <div id="contenedorArticulos">
-    <article id="artExplorar" class="artículo">
-        <h2>Explorar</h2>
-        <p>
+        <article id="artExplorar" class="artículo">
+            <h2 style="font-size: 35px;">Explorar</h2>
+            <div class="userPost">
+                <img class="pfp" src="img/petprofile1.png" alt="Foto de perfil">
 
-        </p>
-    </div>
+            </div>
+
+           <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse eveniet quae temporibus eaque sapiente aliquam, nam nostrum, excepturi explicabo eos, porro deserunt at voluptate! Beatae excepturi voluptatum praesentium hic quis!
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At quo officiis sequi pariatur deserunt fugiat veritatis eos ipsam accusamus tempore numquam, aperiam reprehenderit hic animi, rerum amet alias nam fuga.</p>
+
+        </article>
+    </div>-->
 
 </body>
 </html>
