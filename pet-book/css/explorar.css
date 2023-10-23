@@ -17,9 +17,12 @@ nav {
         }
 
 .container {
-    clear: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
     overflow: auto;
-    background-color: #b69ef7;    
+    background-color: #b69ef7;
                 }
 
 ul {

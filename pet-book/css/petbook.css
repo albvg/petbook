@@ -16,9 +16,12 @@ h1, h2, h3 {
         }
 
 .container {
-    clear: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
     overflow: auto;
-    background-color: #b69ef7;  
+    background-color: #b69ef7;
         }
 
 nav {
@@ -127,3 +130,94 @@ button:hover {
     font-family: 'Nunito';
     padding-bottom: 20px;
         }
+
+#chat {
+    position: fixed;
+    top: 150px;
+    right: 50px;
+    font-family: 'Nunito';
+    background-color: #b69ef7;
+    width: 300px;
+    min-height: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+#chatFriends {
+    list-style: none;
+    display: list-item;
+    margin-left: 20px;
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+#chatFriends::before {
+    content: "\2022";
+  color: rgb(62, 255, 4);
+  font-weight: bolder;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+#chatFriends:hover {
+    color: white;
+}
+
+#tendencias {
+    position: fixed;
+    top: 520px;
+    left: 50px;
+    font-family: 'Nunito';
+    background-color: #b69ef7;
+    width: 300px;
+    min-height: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+#tendenciasList {
+    list-style: none;
+    display: list-item;
+    margin-left: 20px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+
+
+#follow {
+    position: fixed;
+    top: 150px;
+    left: 50px;
+    font-family: 'Nunito';
+    background-color: #b69ef7;
+    width: 300px;
+    min-height: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+#userFollow {
+    list-style: none;
+    display: list-item;
+    margin-left: 20px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+    font-style: italic;
+}
+
+#userFollow:hover {
+    text-decoration: underline;
+    color: white;
+}

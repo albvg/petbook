@@ -19,14 +19,14 @@
 
     <div class="container">
         <div id="logo">
-            <h1>Petbook</h1>
+            <h1><a href="index.html">Petbook</a></h1>
         </div>
         <nav>
             <ul>
                 <li><a href="explorar.html">Explorar</a></li>
                 <li><a href="">Amigos</a></li>
                 <li><a href="about.html">Sobre nosotros</a></li>
-                <li><a href="profile.html">Perfil</a></li>
+                <li><a href="profile.html"> Mi perfil</a></li>
             </ul>
         </nav>
     </div>
@@ -35,8 +35,8 @@
 
 <!--Textbox-->
 
-    <div style="margin-bottom: 60px;">
-        <h1 style="font-size: 28px; color: #b69ef7; text-align: center; margin-top: 50px;">¡Bienvenido/a a Petbook!</h1>
+    <div style=" width: fit-content; margin: 0 auto 60px auto; text-align: center">
+        <h1 style="font-size: 28px; color: #b69ef7; text-align: center; margin-top: 160px;">¡Bienvenido/a a Petbook!</h1>
         <div id="yourPost">
         <p style="color: #5433b1; font-size: 18px;">¿Cómo está tu mascota hoy?</p>
         <textarea name="status" id="petstatus" cols="50" rows="15"></textarea><br>
@@ -44,10 +44,52 @@
         </div>
     </div>
 
-    <div>
+    <div id="chat">
+            <h3 style="margin-left: 12px;">Amigos activos</h3>
+        <div>
+            <ul>
+                <li id="chatFriends">liacat</li>
+                <li id="chatFriends">mariaaleman</li>
+                <li id="chatFriends">golden298</li>
+                <li id="chatFriends">zoegr</li>
+                <li id="chatFriends">misterdog54</li>
+                <li id="chatFriends">polelmapache</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="follow">
+        <h3 style="margin-left: 12px;">A quién seguir</h3>
+        <div>
+            <ul>
+            <li id="userFollow">@animalesdurmiendo</li>
+            <li id="userFollow">@hh4333</li>
+            <li id="userFollow">@cutecats</li>
+            <li id="userFollow">@loveanimalsjose</li>
+            <li id="userFollow">@racoonlover44</li>
+            <li id="userFollow">@Zoolandia</li>
+            </ul>
+        </div> 
+    </div>
+
+    <div id="tendencias">
+        <h3 style="margin-left: 12px;">Tendencias</h3>
+        <div>
+            <ul>
+            <li id="tendenciasList">#adoptatumascota</li>
+            <li id="tendenciasList">#shibainu</li>
+            <li id="tendenciasList">PACMA</li>
+            <li id="tendenciasList">#mascotasvalencia</li>
+            <li id="tendenciasList">Mapaches</li>
+            <li id="tendenciasList">Heterocromía</li>
+            </ul>
+        </div> 
+    </div>
+
+    <div style="width: fit-content; margin: 0 auto;">
         <div class="userPost">
             <div class="profile">
-                <img src="img/petprofile1.png" alt="Foto de perfil" width="90px" height="90px">
+                <img src="img/userProfiles/petprofile1.png" alt="Foto de perfil" width="90px" height="90px">
             </div>
             <div class="profile">
                 <h3>Zoe</h3>
@@ -64,7 +106,7 @@
 
         <div class="userPost">
             <div class="profile">
-                <img src="img/petprofile2.png" alt="Foto de perfil" width="90px" height="90px">
+                <img src="img/userProfiles/perfilanonimo1.png" alt="Foto de perfil" width="90px" height="90px">
             </div>
             <div class="profile">
                 <h3>Mister Dog</h3>
@@ -81,7 +123,7 @@
 
         <div class="userPost">
             <div class="profile">
-                <img src="img/petprofile3.jpeg" alt="Foto de perfil" width="90px" height="90px">
+                <img src="img/userProfiles/petprofile2.jpeg" alt="Foto de perfil" width="90px" height="90px">
             </div>
             <div class="profile">
                 <h3>Noelia</h3>
@@ -98,7 +140,7 @@
 
         <div class="userPost">
             <div class="profile">
-                <img src="img/petprofile4.png" alt="Foto de perfil" width="90px" height="90px">
+                <img src="img/userProfiles/petprofile3.png" alt="Foto de perfil" width="90px" height="90px">
             </div>
             <div class="profile">
                 <h3>Max</h3>
@@ -109,6 +151,57 @@
             <div class="postText">
                 <p>
                     Max cumple 10 años hoy, se me hace mayor
+                </p>
+            </div>
+        </div>
+
+        <div class="userPost">
+            <div class="profile">
+                <img src="img/userProfiles/perfilanonimo2.png" alt="Foto de perfil" width="90px" height="90px">
+            </div>
+            <div class="profile">
+                <h3>perrosindueño</h3>
+            </div>
+            <div class="profile" style="font-family: 'Nunito'; color: rgb(131, 131, 131);">
+                <p>@adoptame</p>
+            </div>
+            <div class="postText">
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, aliquam delectus voluptas aliquid recusandae, fuga harum facere labore rem tempore ab. Incidunt debitis eveniet.
+                </p>
+            </div>
+        </div>
+
+        <div class="userPost">
+            <div class="profile">
+                <img src="img/userProfiles/perfilanonimo3.png" alt="Foto de perfil" width="90px" height="90px">
+            </div>
+            <div class="profile">
+                <h3>Óscar</h3>
+            </div>
+            <div class="profile" style="font-family: 'Nunito'; color: rgb(131, 131, 131);">
+                <p>@guauoscarguau</p>
+            </div>
+            <div class="postText">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam autem libero assumenda unde molestiae, facilis a qui voluptatem eum esse odio ipsa consectetur, facere provident sed optio suscipit, hic veniam.
+                </p>
+            </div>
+        </div>
+
+        <div class="userPost">
+            <div class="profile">
+                <img src="img/userProfiles/perfilanonimo4.png" alt="Foto de perfil" width="90px" height="90px">
+            </div>
+            <div class="profile">
+                <h3>gatoanonimo</h3>
+            </div>
+            <div class="profile" style="font-family: 'Nunito'; color: rgb(131, 131, 131);">
+                <p>@miau333</p>
+            </div>
+            <div class="postText">
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi perspiciatis corrupti aspernatur quasi mollitia incidunt? Eos eum quae accusamus officia voluptatum quisquam qui, consequatur vitae inventore illo voluptas soluta dolorem!
                 </p>
             </div>
         </div>

@@ -8,7 +8,7 @@
 <!-- LINKS -->
     
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
-    <link rel="stylesheet" href="css/petbook.css">
+    <link rel="stylesheet" href="css/profile.css">
           
 <!-- -------- -->
 
@@ -20,25 +20,112 @@
 
     <div class="container">
         <div id="logo">
-            <h1>Petbook</h1>
+            <h1><a href="index.html">Petbook</a></h1>
         </div>
         <nav>
             <ul>
                 <li><a href="explorar.html">Explorar</a></li>
                 <li><a href="">Amigos</a></li>
                 <li><a href="about.html">Sobre nosotros</a></li>
-                <li style="color: #5433b1;"><a href="profile.html">Perfil</a></li>
+                <li style="color: #5433b1;"><a href="profile.html">Mi perfil</a></li>
             </ul>
         </nav>
     </div>
 
 <!-- -------- -->
 
-    <div>
-        <div style="margin: 100px auto; text-align: center;">
-            <img src="img/perfilragdoll.jpeg" alt="Foto perfil" style="width: 200px; height: 200px;border-radius: 50%; display: inline-block; vertical-align: middle; margin-right: 50px;">
-            <h2 style="display: inline-block;">Mia</h2>
+    <div style="margin: 160px auto 20px auto; text-align: center;">
+        <div class="profile">
+            <img src="img/perfilragdoll.jpeg" alt="Foto de perfil" width="200px" height="200px">
+        </div>
+        <div class="profile">
+            <h3 style="font-size: 30px;">Alba</h3>
+        </div>
+        <div class="profile" style="font-family: 'Nunito'; color: rgb(131, 131, 131);">
+            <p style="font-size: 25px; margin-left: 5px;">@albaymia</p>
         </div>
     </div>
+
+    <div id="profileContent">
+        <h2>Mi mascota</h2>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Raza</th>
+                <th>Edad</th>
+                <th>Actitud</th>
+                <th>Ojos</th>
+                <th>Pelaje</th>
+                <th>Tamaño</th>
+            </tr>
+            <tr>
+                <td>Mia</td>
+                <td>Ragdoll</td>
+                <td>2 años</td>
+                <td>Cariñosa</td>
+                <td>Azul</td>
+                <td>Largo</td>
+                <td>Mediano</td>
+            </tr>
+        </table><br><br>
+
+        <table>
+            <tr>
+                <th>Comida</th>
+                <th>Juguetes</th>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li id="listTable">Comida de gatos de marca</li>
+                        <li id="listTable">Pavo</li>
+                        <li id="listTable">Jamón york</li>
+                        <li id="listTable">Leche</li>
+                        <li id="listTable">Premios para gatos</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li id="listTable">Ratón de peluche</li>
+                        <li id="listTable">Pelota de tenis</li>
+                        <li id="listTable">Cordones</li>
+                        <li id="listTable">Láser para gatos</li>
+                        <li id="listTable">Mi pelo</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="gallery">
+        <div class="galleryPicture">
+            <img src="img/profileGallery/1.jpg" alt="Foto 1">
+        </div>
+        <div class="galleryPicture">
+            <img src="img/profileGallery/2.jpg" alt="Foto 2" style="object-fit: cover;">
+        </div>
+        <div class="galleryPicture">
+            <img src="img/profileGallery/3.jpg" alt="Foto 3">
+        </div>
+        <div class="galleryPicture">
+            <img src="img/profileGallery/4.jpg" alt="Foto 4">
+        </div>
+        <div class="galleryPicture">
+            <img src="img/profileGallery/5.jpg" alt="Foto 5">
+        </div>
+        <div class="galleryPicture">
+            <img src="img/profileGallery/6.jpg" alt="Foto 6">
+        </div>
+        <div class="galleryPicture">
+            <img src="img/profileGallery/7.jpg" alt="Foto 7">
+        </div>
+        <div class="galleryPicture">
+            <img src="img/profileGallery/8.jpg" alt="Foto 8">
+        </div>
+        <div class="galleryPicture">
+            <img src="img/profileGallery/9.jpg" alt="Foto 9">
+        </div>
+    </div>
+
 </body>
 </html>

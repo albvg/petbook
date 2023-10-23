@@ -17,9 +17,12 @@ nav {
         }
 
 .container {
-    clear: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
     overflow: auto;
-    background-color: #b69ef7;    
+    background-color: #b69ef7;
                 }
 
 ul {
@@ -46,3 +49,74 @@ body {
     margin: 0px;
     background-color: #f4f1fb;
         }
+
+table, th, td {
+    border: 1px solid #5433b1;
+    border-collapse: collapse;
+    padding: 10px 30px;
+    background-color: #b69ef7;
+    color: white;
+}
+
+.profile {
+    vertical-align: middle;
+    display: inline-block;
+
+        }
+
+.profile img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    display: inline-block;
+        }
+
+#profileContent {
+    width: 60%;
+    border-radius: 40px;
+    min-height: 500px;
+    background-color: #e1d7ff;
+    padding: 50px;
+    margin: 40px auto 30px auto;
+    text-align: center;
+    color: white;
+}
+
+table {
+    margin: 0 auto;
+    font-family: 'Nunito';
+    text-align: center;
+}
+
+#listTable {
+    display: list-item;
+    list-style: none;
+    text-align: left;
+    font-size: 18px;
+}
+
+#listTable:hover {
+    color: white;
+}
+
+.gallery {
+    width: 70%;
+    margin: 30px auto;
+    text-align: center;
+    padding: 50px;
+    border-radius: 40px;
+} 
+
+.galleryPicture {
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.galleryPicture img{
+    width: 400px;
+    height: 400px;
+
+}
